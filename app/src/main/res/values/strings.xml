@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GO HEALTH</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GO HEALTH</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">GO HEALTH</string>
+    <string name="menu_today">TODAY</string>
+    <string name="menu_target">TARGET</string>
+    <string name="menu_act">ACTIVITY</string>
+    <string name="menu_journal">JOURNAL</string>
+    <string name="menu_profile">PROFILE</string>
+    <string name="menu_calculator">BMI CALCULATOR</string>
+
+    <string name="title_activity_today">TodayActivity</string>
+    <string name="title_activity_target">TargetActivity</string>
+    <string name="title_activity_act">ActActivity</string>
+    <string name="title_activity_journal">JournalActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="col1">BMI</string>
+    <string name="col2">Nutritional Status</string>
+    <string name="row1_BMI">Below 18.5</string>
+    <string name="row1_NS">Underweight</string>
+    <string name="row2_BMI">18.5 - 24.9</string>
+    <string name="row2_NS">Normal Weight</string>
+    <string name="row3_BMI">25.0 - 29.9</string>
+    <string name="row3_NS">Pre-Obesity</string>
+    <string name="row4_BMI">30.0 - 34.9</string>
+    <string name="row4_NS">Obesity Class 1</string>
+    <string name="row5_BMI">35.0 - 39.9</string>
+    <string name="row5_NS">Obesity Class 2</string>
+    <string name="row6_BMI">Above 40</string>
+    <string name="row6_NS">Obesity Class 3</string>
+
+    <string name="_18_5_25_kg_m2">18.5 – 25 kg/m2</string>
+    <string name="normal_bmi_range">Normal BMI range:</string>
+    <string name="recalculate">Recalculate your BMI</string>
+    <string name="calculate">Calculate your BMI</string>
+    <string name="weight">WEIGHT</string>
+    <string name="age">AGE</string>
+    <string name="height">HEIGHT</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="_0cm">0cm</string>
+    <string name="_50">50</string>
+    <string name="_19">19</string>
+    <string name="your_result">Your Result</string>
+    <string name="your_age">Your Age</string>
+    <string name="cm">cm</string>
+</resources>

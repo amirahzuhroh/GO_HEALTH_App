@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projectakhirlagi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.projectakhirlagi.ui.profile.ProfileFragment"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/calculator_fragment" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.projectakhirlagi.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_journal"
+        android:name="com.example.projectakhirlagi.ui.journal.JournalFragment"
+        android:label="@string/menu_journal"
+        tools:layout="@layout/journal_fragment" />
+
+    <fragment
+        android:id="@+id/nav_act"
+        android:name="com.example.projectakhirlagi.ui.act.ActFragment"
+        android:label="@string/menu_act"
+        tools:layout="@layout/act_fragment" />
+
+    <fragment
+        android:id="@+id/nav_today"
+        android:name="com.example.projectakhirlagi.ui.today.TodayFragment"
+        android:label="@string/menu_today"
+        tools:layout="@layout/today_fragment" />
+
+    <fragment
+        android:id="@+id/nav_target"
+        android:name="com.example.projectakhirlagi.ui.target.TargetFragment"
+        android:label="@string/menu_target"
+        tools:layout="@layout/target_fragment" />
+
+</navigation>

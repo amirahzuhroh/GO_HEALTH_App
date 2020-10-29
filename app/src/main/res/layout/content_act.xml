@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_act_blue"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVITY"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorAccent"
+                    android:padding="30dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="10dp" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/blue_bg">
+
+                        <EditText
+                            android:id="@+id/txtMoTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:hint="time"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:id="@+id/txtMoWalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Morning Walk"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_below="@id/txtMoTime"/>
+
+                        <LinearLayout
+                            android:id="@+id/linlay1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_below="@id/txtMoWalk">
+
+                            <EditText
+                                android:id="@+id/txtMoMin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="minutes"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary" />
+
+                            <EditText
+                                android:id="@+id/txtMoKil"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="kilometers"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linlay2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_below="@id/linlay1">
+
+                        <EditText
+                            android:id="@+id/txtMoStep"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:hint="steps"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <EditText
+                            android:id="@+id/txtMoCal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:hint="calories"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_jogging"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="10dp" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/blue_bg">
+
+                        <EditText
+                            android:id="@+id/txtLunTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:hint="time"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:id="@+id/txtLunWalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lunch Walk"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_below="@id/txtLunTime"/>
+
+                        <LinearLayout
+                            android:id="@+id/linlay3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_below="@id/txtLunWalk">
+
+                            <EditText
+                                android:id="@+id/txtLunMin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="minutes"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary" />
+
+                            <EditText
+                                android:id="@+id/txtLunKil"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="kilometers"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linlay4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_below="@id/linlay3">
+
+                            <EditText
+                                android:id="@+id/txtLunStep"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="steps"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                            <EditText
+                                android:id="@+id/txtLunCal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="calories"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_jogging"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="10dp" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/blue_bg">
+
+                        <EditText
+                            android:id="@+id/txtAfTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:hint="time"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:id="@+id/txtAfWalk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Afternoon Walk"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_below="@id/txtAfTime"/>
+
+                        <LinearLayout
+                            android:id="@+id/linlay5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_below="@id/txtAfWalk">
+
+                            <EditText
+                                android:id="@+id/txtAfMin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="minutes"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary" />
+
+                            <EditText
+                                android:id="@+id/txtAfKil"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="kilometers"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linlay6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_below="@id/linlay5">
+
+                            <EditText
+                                android:id="@+id/txtAfStep"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="steps"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                            <EditText
+                                android:id="@+id/txtAfCal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:hint="calories"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_jogging"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_save_act"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/blue_bg"
+                    android:onClick="Save"
+                    android:text="SAVE"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btn_retr_act"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="RETRIVE"
+                    android:textSize="15sp"
+                    android:onClick="Get"
+                    android:background="@drawable/blue_bg"/>
+
+                <Button
+                    android:id="@+id/btn_clear_act"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/blue_bg"
+                    android:onClick="Clear"
+                    android:text="CLEAR"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
